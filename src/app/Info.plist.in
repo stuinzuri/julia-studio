@@ -142,7 +142,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-    <string>JuliaStudio</string>
+    <string>Julia Studio</string>
     <key>CFBundleName</key>
     <string>Julia Studio</string>
     <key>CFBundleDisplayName</key>

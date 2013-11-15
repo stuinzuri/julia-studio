@@ -1,6 +1,6 @@
 ## Julia Studio
 [Julia Studio](http://forio.com/julia) is a cross-platform IDE for the [Julia language](http://julialang.org/)
-based on Qt Creator and the Qt framework.  To download JuliaStudio binaries, visit [forio.com/julia/downloads](http://forio.com/julia/downloads) for Mac, Windows, or Linux.  
+based on Qt Creator and the Qt framework.  To download Julia Studio binaries, visit [forio.com/julia/downloads](http://forio.com/julia/downloads) for Mac, Windows, or Linux.  
 
 ## Supported Platforms
 The binary packages support the following platforms:
@@ -11,7 +11,7 @@ The binary packages support the following platforms:
    * Windows Vista
    * (K)Ubuntu Linux 8.04 (32-bit) or later
 
-![Screenshot of JuliaStudio running on Mac](http://i.imgur.com/mXa2ZQG.png)
+![Screenshot of Julia Studio running on Mac](http://i.imgur.com/mXa2ZQG.png)
 
 ## Compiling Julia Studio
 Prerequisites:
@@ -130,8 +130,8 @@ SDK (release builds of Qt using MinGW and Visual C++ 2008).
          cd ..\julia-studio
          qmake && jom
 
-   11. To launch JuliaStudio, enter:
-       `JuliaStudio`
+   11. To launch Julia Studio, enter:
+       `Julia Studio`
 
    12. When using  Visual C++ with the "Debugging Tools for Windows" installed,
        the extension library qtcreatorcdbext.dll to be loaded into the
@@ -152,7 +152,7 @@ we thank the authors who made this possible:
 
   Roberto Raggi <roberto.raggi@gmail.com>
 
-  JuliaStudio/src/shared/cplusplus
+  ./src/shared/cplusplus
 
   Copyright 2005 Roberto Raggi <roberto@kdevelop.org>
 
@@ -214,7 +214,7 @@ we thank the authors who made this possible:
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   The source code of Botan C++ crypto library can be found in
-  JuliaStudio/src/libs/3rdparty
+  ./src/libs/3rdparty
 
 
 * ClassView and ImageViewer plugins

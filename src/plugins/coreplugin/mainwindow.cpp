@@ -135,7 +135,7 @@ MainWindow::MainWindow() :
     m_settings(ExtensionSystem::PluginManager::settings()),
     m_globalSettings(ExtensionSystem::PluginManager::globalSettings()),
     m_settingsDatabase(new SettingsDatabase(QFileInfo(m_settings->fileName()).path(),
-                                            QLatin1String("JuliaStudio"),
+                                            QLatin1String("Julia Studio"),
                                             this)),
     m_printer(0),
     m_actionManager(new ActionManager(this)),

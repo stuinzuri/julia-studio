@@ -233,7 +233,7 @@ static QSettings *createUserSettings()
 {
     return new QSettings(QSettings::IniFormat, QSettings::UserScope,
                          QLatin1String(Core::Constants::IDE_SETTINGSVARIANT_STR),
-                         QLatin1String("JuliaStudio"));
+                         QLatin1String("Julia Studio"));
 }
 
 static inline QSettings *userSettings()
@@ -339,7 +339,7 @@ int main(int argc, char **argv)
 
     QSettings *globalSettings = new QSettings(QSettings::IniFormat, QSettings::SystemScope,
                                               QLatin1String(Core::Constants::IDE_SETTINGSVARIANT_STR),
-                                              QLatin1String("JuliaStudio"));
+                                              QLatin1String("Julia Studio"));
     PluginManager pluginManager;
     PluginManager::setFileExtension(QLatin1String("pluginspec"));
     PluginManager::setGlobalSettings(globalSettings);
